@@ -46,3 +46,11 @@ and then activate and run program with the following commands
 '''uv run telemetry_sim.py'''
 and in the separate bash
 '''uv run streamlit run dashboard.py'''
+
+```bash
+# Install dependencies using uv
+uv sync
+
+# Run the Streamlit dashboard
+streamlit run telemetry_sim.py
+```
