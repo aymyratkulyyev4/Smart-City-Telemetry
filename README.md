@@ -37,20 +37,17 @@ Database: SQLite3
 ⚙️ Getting Started
 Prerequisites
 Make sure you have Python installed along with the required libraries:
-'''pip install streamlit pandas'''
+```bash
+pip install streamlit pandas ```
 Running the Application
 Clone the repository:
-'''git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name'''
-and then activate and run program with the following commands
-'''uv run telemetry_sim.py'''
-and in the separate bash
-'''uv run streamlit run dashboard.py'''
-
 ```bash
-# Install dependencies using uv
-uv sync
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name```
+and then activate and run program with the following commands
+```bash
+uv run telemetry_sim.py```
+and in the separate bash
+```bash
+uv run streamlit run dashboard.py```
 
-# Run the Streamlit dashboard
-streamlit run telemetry_sim.py
-```
